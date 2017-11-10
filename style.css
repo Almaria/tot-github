@@ -1,0 +1,46 @@
+h1{
+	color:red;
+}
+h1.mercu{
+	color: blue;
+}
+h1#mercu{
+	color:green;
+}
+h1#mercubuana{
+	color:pink;
+}
+
+.button{
+	background-color: #FF00FF;
+	border:none;
+	color:white;
+	padding:15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.button:hover{
+	background-color: #9932CC;
+}
+.button:focus{
+	background-color: #8B008B;
+}
+
+table{
+	font-family: helvetica,sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+
+}
+td,th{
+	border: 2px solid #B22222;
+	text-align: center;
+	padding:8px;
+}
+tr:nth-child(even){
+	background-color: #F08080;
+}
